@@ -1,0 +1,30 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .todo {
+    position: relative;
+    height: 200px;
+    width: 321px;
+    transform: translateX(11%);
+  }
+  .allpost {
+    padding-top: 40px;
+  }
+  .card {
+    width: 180px !important;
+  }
+  .conterNumber {
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    z-index: 1;
+    font-size: 16px;
+  }
+  .scarch input {
+	position: absolute;
+	z-index: 5;
+	right: 0;
+	width: 139px;
+	top: 196px;
+}
+}
+
+/* @media (min-width: 576px) and (max-width: 768.98px) */

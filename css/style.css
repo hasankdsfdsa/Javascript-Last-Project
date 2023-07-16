@@ -1,0 +1,67 @@
+.update {
+  display: none;
+}
+
+body{
+    background-color: orangered;
+    position: relative;
+}
+.todo{
+    position: relative;
+    height: 200px;
+    width: 500px;
+    background: teal;
+    transform: translateX(60%);
+}
+.todo input{
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0;
+}
+.todo button{
+
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0;
+    padding: 6px 25px;
+}
+.todo .text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.todo .error{
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%,-50%);
+    color: red;
+}
+
+.conterNumber{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.scarch{
+    position: absolute;
+    top: 5%;
+    right:15%;
+}
+.scarch input{
+    border: 0;
+    padding: 10px 15px; 
+}
+.conterNumber{
+    color: #fff;
+}
+
